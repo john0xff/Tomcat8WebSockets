@@ -116,6 +116,12 @@ public class SnakeAnnotation
 			snake.setDirection(Direction.SOUTH);
 			System.out.println("SOUTH");
 		}
+		else if ("ping".equals(message))
+		{
+			
+			System.out.println("ping");
+		}
+		
 	}
 
 	@OnClose
